@@ -38,6 +38,22 @@ textarea {resize: none;}
 
 .pc-text-contacts span {display: inline-block; margin-right: 10px;}
 
+.pc-slide-container {background: url(../images/pc-slide.jpg) no-repeat center center; width: 100%; height: 401px;}
+
+.pc-slide-container .pc-title {margin-top: 45px; margin-bottom: 30px;}
+.pc-slide-container .pc-row {margin-left: 0; margin-top: 60px;}
+
+.pc-row {margin-bottom: 30px; margin-top: 30px;}
+
+.pc-our-service-successfully-used-container {background-color: #f1f5f7;}
+
+.pc-payment-services-container,
+.pc-additional-services-container {background-color: #ffffff;}
+
+.pc-service-info-container ul {list-style: none; margin: 0 -10px; padding: 0;}
+.pc-service-info-container ul li {float: left; width: 219px; margin: 0 10px;}
+.pc-info-icon {width: 143px; height: 143px; border-radius: 50%; background: #ffffff; box-shadow: 4px 4px 0 #8d97a0; margin: 0 auto 10px auto;}
+
 .row .pc-form-login {margin-top: 10px;}
 .pc-form-login {margin-top: 23px;}
 

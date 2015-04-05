@@ -3,6 +3,8 @@
 a {text-decoration: underline;}
 a:hover {text-decoration: none;}
 
+textarea {resize: none;}
+
 .pc-font-size-16 {font-size: 16px;}
 
 .pc-wrapper {background-color: #f1f5f7;}
@@ -33,6 +35,8 @@ a:hover {text-decoration: none;}
 
 /*.pc-container {padding-bottom: 70px;}*/
 .pc-text-info-container {margin: 20px 0 50px 0;}
+
+.pc-text-contacts span {display: inline-block; margin-right: 10px;}
 
 .row .pc-form-login {margin-top: 10px;}
 .pc-form-login {margin-top: 23px;}

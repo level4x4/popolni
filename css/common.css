@@ -3,6 +3,8 @@
 a {text-decoration: underline;}
 a:hover {text-decoration: none;}
 
+.pc-font-size-16 {font-size: 16px;}
+
 .pc-wrapper {background-color: #f1f5f7;}
 .pc-nav {height: 82px; line-height: 78px; border-bottom: 4px solid #8d97a0;}
 
@@ -29,8 +31,11 @@ a:hover {text-decoration: none;}
 .pc-btn {font-family: 'Proxima-Nova-Condensed-Regular'; font-size: 27px; height: 46px; padding: 4px 12px; text-decoration: none;}
 /*.pc-btn-enter {width: 202px;}*/
 
-.row .pc-form-login {/*width: 285px; */margin-top: 10px; margin-bottom: 70px;}
-.pc-form-login {/*width: 285px; */margin-top: 23px; margin-bottom: 70px;}
+/*.pc-container {padding-bottom: 70px;}*/
+.pc-text-info-container {margin: 20px 0 50px 0;}
+
+.row .pc-form-login {margin-top: 10px;}
+.pc-form-login {margin-top: 23px;}
 
 .pc-collback-container {margin-top: 31px;}
 .pc-collback-container .pc-form-group.input-group .form-control {border-width: 5px; border-color: #c7ccd0; border-right: 0;}

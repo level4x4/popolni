@@ -1,0 +1,33 @@
+@import "fonts.css";
+
+a {text-decoration: underline;}
+a:hover {text-decoration: none;}
+
+.pc-wrapper {background-color: #f1f5f7;}
+.pc-nav {height: 82px; line-height: 78px; border-bottom: 4px solid #8d97a0;}
+
+.pc-title {font-family: 'Proxima-Nova-Condensed-Regular'; font-size: 45px;}
+
+.pc-form-group .form-control {border-width: 3px; padding: 6px 18px;}
+
+.pc-btn {font-family: 'Proxima-Nova-Condensed-Regular'; font-size: 27px; height: 46px; padding: 4px 12px;}
+.pc-btn-enter {width: 202px;}
+
+.pc-form-login {/*width: 285px; */margin-top: 10px; margin-bottom: 70px;}
+
+.pc-collback-container {margin-top: 31px;}
+.pc-collback-container .pc-form-group.input-group .form-control {border-width: 5px; border-color: #c7ccd0; border-right: 0;}
+.pc-collback-container .pc-form-group > .input-group-btn:last-child > .btn,
+.pc-collback-container .pc-form-group > .input-group-btn:last-child > .btn-group {margin-left: 0; height: 48px; border-radius: 0; border-width: 5px; border-color: #c7ccd0; border-left: 0;}
+.pc-collback-container .pc-form-group > .input-group-btn:last-child > .btn .fa {margin: -1px -4px 0 0; color: #9da6ae;}
+.pc-collback-container .pc-form-group.input-group .btn-default:hover,
+.pc-collback-container .pc-form-group.input-group .btn-default:focus,
+.pc-collback-container .pc-form-group.input-group .btn-default.focus,
+.pc-collback-container .pc-form-group.input-group .btn-default:active,
+.pc-collback-container .pc-form-group.input-group .btn-default.active {background-color: #ffffff; border-left: 0;}
+
+.pc-footer {background-color: #9da6ae; height: 104px; color: #ffffff;}
+.pc-logo-footer {line-height: 103px;}
+.pc-contact-footer-info {margin: 37px 0 0 20px; line-height: normal;}
+
+.pc-copyright {color: #babfc3; font-size: 10px; margin-top: 18px;}

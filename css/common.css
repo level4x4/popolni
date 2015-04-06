@@ -67,6 +67,11 @@ textarea {resize: none;}
 .pc-collback-container .pc-form-group.input-group .btn-default.focus,
 .pc-collback-container .pc-form-group.input-group .btn-default:active,
 .pc-collback-container .pc-form-group.input-group .btn-default.active {background-color: #ffffff; border-left: 0;}
+.pc-collback-container .pc-form-group.input-group .btn-default:hover .fa,
+.pc-collback-container .pc-form-group.input-group .btn-default:focus .fa,
+.pc-collback-container .pc-form-group.input-group .btn-default.focus .fa,
+.pc-collback-container .pc-form-group.input-group .btn-default:active .fa,
+.pc-collback-container .pc-form-group.input-group .btn-default.active .fa {color: #e54404;}
 
 .pc-footer {background-color: #9da6ae; height: 104px; color: #ffffff;}
 .pc-logo-footer {line-height: 103px;}
@@ -77,12 +82,15 @@ textarea {resize: none;}
 .pc-footer .pc-social .fa-inverse {color: #9da6ae;}
 .pc-footer .pc-social .fa-stack-2x {font-size: 26px;}
 .pc-footer .pc-social .fa-stack-1x {font-size: 18px;}
+.pc-footer .pc-social:hover {color: #e54404;}
 .pc-social.fa-stack {height: 26px; width: 26px; line-height: 26px;}
 
 .pc-copyright {color: #babfc3; font-size: 10px; margin-top: 18px;}
 
 .pc-footer-nav ul {list-style: none; padding: 0; margin: 0;}
 .pc-footer-nav a {color: #ffffff; text-decoration: none;}
+.pc-footer-nav a:hover,
+.pc-footer-nav li.active a {text-decoration: underline;}
 .pc-footer-nav > ul > li {float: left; padding: 12px 0 6px 0;}
 .pc-footer-nav > ul > li > a {font-size: 16px; margin: 0 20px;}
 .pc-footer-nav > ul > li > ul > li {margin: 0 20px; line-height: 24px;}

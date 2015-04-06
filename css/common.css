@@ -2,6 +2,7 @@
 
 a {text-decoration: underline;}
 a:hover {text-decoration: none;}
+a, a:hover, a:focus {outline: none;}
 
 textarea {resize: none;}
 
@@ -17,6 +18,15 @@ textarea {resize: none;}
 .pc-header-nav ul li a {color: #48494a; text-decoration: none; font-size: 16px;}
 .pc-header-nav ul li.active a {color: #e54404;}
 .pc-header-nav ul li a:hover {color: #e54404; text-decoration: underline;}
+
+.pc-languages {border-radius: 8px 8px 8px 8px; padding: 3px 10px; line-height: normal; margin-top: 25px}
+.pc-languages.pc-open {background-color: #ffffff;}
+.pc-languages a {display: none; color: #8a8b8b; text-decoration: none; margin: 6px 0;}
+.pc-languages.pc-open a {display: block;}
+.pc-languages a:hover {color: #e54404; text-decoration: underline;}
+.pc-languages a:first-child {color: #48494a; text-decoration: none; display: block;}
+.pc-languages a:first-child:after {content: ""; width: 0; height: 0; border-left: 4px solid transparent; border-right: 4px solid transparent; border-top: 6px solid #48494a; display: inline-block; margin-left: 3px;}
+.pc-languages.pc-open a:first-child:after {border-top: 0; border-bottom: 6px solid #48494a;}
 
 .pc-user-container ul {list-style: none; padding: 0; margin: 0;}
 .pc-user-container ul li {float: left; padding: 0 6px;}

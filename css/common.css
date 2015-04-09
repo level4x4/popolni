@@ -79,7 +79,7 @@ textarea {resize: none;}
 .row .pc-form-login {margin-top: 10px;}
 .pc-form-login {margin-top: 23px;}
 
-.pc-callback-container {margin-top: 31px;}
+.pc-callback-container {margin-top: 31px; width: 272px;}
 .pc-callback-container .pc-form-group.input-group .form-control {border-width: 5px; border-color: #c7ccd0; border-right: 0;}
 .pc-callback-container .pc-form-group > .input-group-btn:last-child > .btn,
 .pc-callback-container .pc-form-group > .input-group-btn:last-child > .btn-group {margin-left: 0; height: 48px; border-radius: 0; border-width: 5px; border-color: #c7ccd0; border-left: 0;}
@@ -96,7 +96,7 @@ textarea {resize: none;}
 .pc-callback-container .pc-form-group.input-group .btn-default.active .fa {color: #e54404;}
 
 .pc-footer {background-color: #9da6ae; height: 104px; color: #ffffff;}
-.pc-logo-footer {line-height: 103px;}
+.pc-logo-footer {line-height: 103px; width: 290px;}
 .pc-contact-footer-info {margin: 37px 0 0 20px; line-height: normal;}
 .pc-contact-footer-info.pc-social-footer {margin: 25px 0 0 20px;}
 .pc-contact-footer-info p {margin: 0; padding: 0;}

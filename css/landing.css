@@ -17,7 +17,7 @@
 	.pc-footer-flex {flex-wrap: wrap;}
 
 	.pc-footer {height: 223px;}
-	.pc-logo-footer {margin-left: auto; margin-right: auto;}
+	.pc-logo-footer {margin-left: auto; margin-right: auto; text-align: center;}
 }
 
 @media (max-width: 768px) {
@@ -30,6 +30,5 @@
 }
 
 @media (max-width: 480px) {
-
 
 }

@@ -3,6 +3,7 @@
 <head lang="ru">
 	<meta charset="UTF-8">
 	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" />
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/common.css" />
@@ -42,12 +43,12 @@
 		</div>
 	</div>
 	<div class="pc-slide-container">
-		<div class="container">
+		<div class="pc-slide-flex-container container">
 			<div class="row">
 				<h1 class="pc-title col-md-9 col-md-offset-1">Простое решение для бизнеса</h1>
 			</div>
 			<div class="row">
-				<div class="pc-font-size-16 col-md-6 col-md-offset-1">
+				<div class="pc-text-slide pc-font-size-16 col-md-6 col-md-offset-1">
 					<p>Popolni.Club — сервис массового пополнения мобильных телефонов Украины.</p>
 					<p>Повышайте лояльность клиентов пополняя их телефоны во время акций и после совершенных заказов!</p>
 				</div>
@@ -63,22 +64,33 @@
 			<div class="pc-service-info-container">
 				<ul>
 					<li>
-						<div class="pc-info-icon"></div>
+						<div class="pc-info-icon">
+							<img class="pc-image-taxi-service" src="images/taxi-service.svg" alt="Службы такси" title="">
+						</div>
 						<p class="pc-font-size-16 text-info"><b>Службы такси</b></p>
 						<p>После оплаты заказа клиенту возвращается бонус — пополнение счета.</p>
 					</li>
 					<li>
-						<div class="pc-info-icon"></div>
+						<div class="pc-info-icon">
+							<img class="pc-image-trademarks" src="images/trademarks.svg" alt="Торговые марки" title="">
+						</div>
 						<p class="pc-font-size-16 text-info"><b>Торговые марки</b></p>
 						<p>Маркетинговая активность во время проведения акции.</p>
 					</li>
+					<li class="pc-hide-button pc-row">
+						<a class="pc-btn btn btn-danger" href="#">Стать клиентом</a>
+					</li>
 					<li>
-						<div class="pc-info-icon"></div>
+						<div class="pc-info-icon">
+							<img class="pc-image-online-shops" src="images/online-shops.svg" alt="Интернет-магазины" title="">
+						</div>
 						<p class="pc-font-size-16 text-info"><b>Интернет-магазины</b></p>
 						<p>Проведение акций среди покупателей. Поощрение за заказ.</p>
 					</li>
 					<li>
-						<div class="pc-info-icon"></div>
+						<div class="pc-info-icon">
+							<img class="pc-image-corporate-solutions" src="images/corporate-solutions.svg" alt="Корпоративные решения" title="">
+						</div>
 						<p class="pc-font-size-16 text-info"><b>Корпоративные решения</b></p>
 						<p>Оплата связи сотрудников компаний в сегменте малого и среднего бизнеса.</p>
 					</li>
@@ -92,6 +104,44 @@
 	<div class="pc-payment-services-container">
 		<div class="container">
 			<h1 class="pc-title text-info">Оплата услуг Popolni.Club</h1>
+			<p>Стоимость услуг зависит от суммы совершенных пополнений в календарный месяц.</p>
+			<div class="pc-payment-packages">
+				<ul>
+					<li>
+						<p class="pc-font-size-16 text-info"><b>Базовый</b></p>
+						<div class="pc-package-icon">
+							<img class="pc-package-base" src="images/package-base.svg" alt="Базовый" title="">
+						</div>
+						<p><b>Комиссия 7% от суммы пополнения</b></p>
+						<p>до 50 000 грн.</p>
+						<div class="pc-row-package">
+							<a class="pc-btn btn btn-danger" href="#">Регистрация</a>
+						</div>
+					</li>
+					<li>
+						<p class="pc-font-size-16 text-info"><b>Оптимальный</b></p>
+						<div class="pc-package-icon">
+							<img class="pc-package-optimal" src="images/package-optimal.svg" alt="Оптимальный" title="">
+						</div>
+						<p><b>Комиссия 6% от суммы пополнения</b></p>
+						<p>от 50 000 грн. до 100 000 грн.</p>
+						<div class="pc-row-package">
+							<a class="pc-btn btn btn-danger" href="#">Регистрация</a>
+						</div>
+					</li>
+					<li>
+						<p class="pc-font-size-16 text-info"><b>Премиум</b></p>
+						<div class="pc-package-icon">
+							<img class="pc-package-premium" src="images/package-premium.svg" alt="Премиум" title="">
+						</div>
+						<p><b>Комиссия 5% от суммы пополнения</b></p>
+						<p>от 100 000 грн.</p>
+						<div class="pc-row-package">
+							<a class="pc-btn btn btn-danger" href="#">Регистрация</a>
+						</div>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</div>
 	<div class="pc-additional-services-container">

@@ -33,7 +33,16 @@
 
 	var $pcLanguages;
 
+	pc.preloadImage = function(url){
+		var image = new Image();
+		image.src = url;
+	};
+
 	$(function(){
+		pc.preloadImage('/images/pc-slide-bg-1920.jpg');
+		pc.preloadImage('/images/pc-slide-bg-995.jpg');
+		pc.preloadImage('/images/pc-slide-bg-768.jpg');
+
 		$pcLanguages = $(selectors.pcLanguages);
 
 		$pcLanguages.on('click', 'a:first', function(){

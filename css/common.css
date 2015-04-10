@@ -60,7 +60,9 @@ textarea {resize: none;}
 
 .pc-text-contacts span {display: inline-block; margin-right: 10px;}
 
-.pc-slide-container {background: url(../images/pc-slide.jpg) no-repeat center center; width: 100%; height: 401px;}
+.pc-slide-container {background: url(../images/pc-slide-bg-1920.jpg) no-repeat center center; width: 100%; height: 401px;}
+
+.pc-slide-flex-container {display: flex; flex-direction: column;}
 
 .pc-slide-container .pc-title {margin-top: 45px; margin-bottom: 30px;}
 .pc-slide-container .pc-row {margin-left: 0; margin-top: 60px;}
@@ -74,7 +76,24 @@ textarea {resize: none;}
 
 .pc-service-info-container ul {list-style: none; margin: 0; padding: 0; display: flex; flex-flow: row wrap; justify-content: space-around;}
 .pc-service-info-container ul li {width: 219px;}
-.pc-info-icon {width: 143px; height: 143px; border-radius: 50%; background: #ffffff; box-shadow: 4px 4px 0 #8d97a0; margin: 0 auto 10px auto;}
+.pc-info-icon {width: 143px; height: 143px; border-radius: 50%; background: #ffffff; box-shadow: 4px 4px 0 #8d97a0; margin: 0 auto 10px auto; display: flex; align-items: center; justify-content: center;}
+
+.pc-hide-button {display: none;}
+
+.pc-image-taxi-service {width: 100px; height: 37px;}
+.pc-image-trademarks {width: 81px; height: 80px;}
+.pc-image-online-shops {width: 63px; height: 91px;}
+.pc-image-corporate-solutions {width: 110px; height: 73px;}
+
+.pc-payment-packages {}
+.pc-payment-packages ul {list-style: none; margin: 0; padding: 0; display: flex; flex-flow: row wrap; justify-content: space-around;}
+.pc-payment-packages ul li {text-align: center;}
+
+.pc-package-icon {height: 118px; line-height: 96px;}
+
+.pc-package-base {width: 86px; height: 61px;}
+.pc-package-optimal {width: 113px; height: 67px;}
+.pc-package-premium {width: 98px; height: 118px;}
 
 .row .pc-form-login {margin-top: 10px;}
 .pc-form-login {margin-top: 23px;}

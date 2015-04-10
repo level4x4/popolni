@@ -18,6 +18,18 @@
 
 	.pc-footer {height: 223px;}
 	.pc-logo-footer {margin-left: auto; margin-right: auto; text-align: center;}
+
+	.pc-slide-container {background-image: url(../images/pc-slide-bg-995.jpg);}
+
+	.pc-title {text-align: center;}
+
+	.pc-slide-flex-container {align-items: center;}
+	.pc-slide-flex-container .pc-title {margin-left: auto; margin-right: auto; width: 100%;}
+	.pc-slide-flex-container .pc-text-slide {margin-left: auto; margin-right: auto; float: none; width: 60%;}
+	.pc-slide-flex-container .pc-row,
+	.pc-row {width: 50%; margin-left: auto; margin-right: auto;}
+	.pc-row .btn {width: 100%; height: 69px; line-height: 60px; font-size: 50px; margin-left: 0;}
+	/*.pc-btn {width: 50%; height: 69px; line-height: 60px; font-size: 50px; margin-left: auto; margin-right: auto; text-align: center;}*/
 }
 
 @media (max-width: 768px) {
@@ -27,6 +39,37 @@
 	.pc-footer-row {flex-wrap: wrap; align-content: space-around; align-items: baseline;}
 	.pc-contact-footer-info.pc-social-footer {margin-left: auto;}
 	.pc-callback-container {margin-right: auto;}
+
+	.pc-slide-container {background-image: url(../images/pc-slide-bg-768.jpg);}
+
+	.pc-slide-flex-container .pc-title {text-align: center; margin-top: 20px;}
+	.pc-slide-flex-container .pc-text-slide {width: 100%;}
+	.pc-slide-flex-container .pc-row {margin-top: 25px;}
+	.pc-slide-flex-container .pc-row,
+	.pc-row {width: 90%;}
+
+	.pc-row-package {width: 90%; margin-left: auto; margin-right: auto;}
+	.pc-row-package .btn {width: 100%; height: 69px; line-height: 60px; font-size: 50px; margin-left: 0;}
+
+	.pc-service-info-container ul li {width: 100%; height: 364px;}
+	.pc-info-icon {width: 212px; height: 212px; box-shadow: 7px 7px 0 #8d97a0;}
+
+	.pc-image-taxi-service {width: 148px; height: 55px;}
+	.pc-image-trademarks {width: 120px; height: 118px;}
+	.pc-image-online-shops {width: 93px; height: 135px;}
+	.pc-image-corporate-solutions {width: 163px; height: 108px;}
+
+	.pc-service-info-container ul li.pc-hide-button {display: block; height: 136px;}
+	.pc-our-service-successfully-used-container .pc-btn {margin-bottom: 67px;}
+
+	.pc-payment-packages ul li {margin-bottom: 60px;}
+	.pc-payment-packages ul li .text-info {font-size: 35px;}
+	.pc-payment-packages ul li p {font-size: 20px;}
+	.pc-package-icon {height: 298px; line-height: 256px;}
+
+	.pc-package-base {width: 217px; height: 154px;}
+	.pc-package-optimal {width: 285px; height: 169px;}
+	.pc-package-premium {width: 247px; height: 298px;}
 }
 
 @media (max-width: 480px) {

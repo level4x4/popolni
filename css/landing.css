@@ -30,6 +30,7 @@
 	.pc-row {width: 50%; margin-left: auto; margin-right: auto;}
 	.pc-row .btn {width: 100%; height: 69px; line-height: 60px; font-size: 50px; margin-left: 0;}
 	/*.pc-btn {width: 50%; height: 69px; line-height: 60px; font-size: 50px; margin-left: auto; margin-right: auto; text-align: center;}*/
+	.pc-additional-services-container .pc-row.row {width: 60%;}
 }
 
 @media (max-width: 768px) {
@@ -46,9 +47,9 @@
 	.pc-slide-flex-container .pc-text-slide {width: 100%;}
 	.pc-slide-flex-container .pc-row {margin-top: 25px;}
 	.pc-slide-flex-container .pc-row,
-	.pc-row {width: 90%;}
+	.pc-row {width: 100%;}
 
-	.pc-row-package {width: 90%; margin-left: auto; margin-right: auto;}
+	.pc-row-package {width: 100%; margin-left: auto; margin-right: auto;}
 	.pc-row-package .btn {width: 100%; height: 69px; line-height: 60px; font-size: 50px; margin-left: 0;}
 
 	.pc-service-info-container ul li {width: 100%; height: 364px;}
@@ -70,8 +71,20 @@
 	.pc-package-base {width: 217px; height: 154px;}
 	.pc-package-optimal {width: 285px; height: 169px;}
 	.pc-package-premium {width: 247px; height: 298px;}
+
+	.pc-additional-services ul li {text-align: center;}
+
+	.pc-additional-services-container .pc-row.row {width: 100%;}
+
+	.pc-additional-services ul li {width: 320px; font-size: 20px; margin-bottom: 40px;}
+	.pc-services-icon {text-align: center; height: 232px;}
+	.pc-additional-services-web-interface {width: 281px; height: 207px;}
+	.pc-additional-services-alfa-name {width: 233px; height: 232px;}
+	.pc-additional-services-api {width: 279px; height: 221px;}
 }
 
 @media (max-width: 480px) {
-
+	.pc-row-package .btn,
+	.pc-row .btn {font-size: 35px; height: 50px; line-height: 44px;}
+	.pc-title {font-size: 40px;}
 }

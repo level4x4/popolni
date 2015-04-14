@@ -81,6 +81,12 @@
 	.pc-additional-services-web-interface {width: 281px; height: 207px;}
 	.pc-additional-services-alfa-name {width: 233px; height: 232px;}
 	.pc-additional-services-api {width: 279px; height: 221px;}
+	.pc-show-all-recall-top {display: none;}
+	.pc-show-all-recall-bottom {display: block; font-size: 20px; margin-bottom: 10px;}
+
+	.pc-testimonials-container .pc-row {display: none;}
+
+	.pc-partner-logo {width: 100%;}
 }
 
 @media (max-width: 480px) {

@@ -3,10 +3,13 @@
 <head lang="ru">
 	<meta charset="UTF-8">
 	<title></title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes" />
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/perfect-scrollbar.css" />
+	<link rel="stylesheet" type="text/css" href="css/bad-browser.css" />
 	<link rel="stylesheet" type="text/css" href="css/common.css" />
+	<link rel="stylesheet" type="text/css" href="css/landing.css" />
 </head>
 <body>
 <div class="pc-wrapper">
@@ -47,33 +50,45 @@
 		</div>
 		<div class="pc-text-info-container"></div>
 	</div>
-</div>
-<div class="pc-footer">
-	<div class="pc-footer-flex container">
-		<div class="pc-logo-footer">
-			<img src="images/logo-footer.png" width="220" height="58" alt="Popolni club" title="" />
-		</div>
-		<div class="pc-footer-row">
-			<div class="pc-contact-footer-info pc-social-footer">
-				<p>Днепропетровск, улица Красная 3а<br/>+3 8097 100 5555</p>
+	<div class="pc-footer">
+		<div class="pc-footer-flex container">
+			<div class="pc-logo-footer">
+				<img src="images/logo-footer.png" width="220" height="58" alt="Popolni club" title="" />
 			</div>
-			<div class="pc-callback-container pull-right">
-				<div class="pc-form-group input-group">
-					<input class="form-control" type="text" placeholder="Заказать обратный звонок">
+			<div class="pc-footer-row">
+				<div class="pc-contact-footer-info pc-social-footer">
+					<p>Днепропетровск, улица Красная 3а<br/>+3 8097 100 5555</p>
+				</div>
+				<div class="pc-callback-container pull-right">
+					<div class="pc-form-group input-group">
+						<input class="form-control" type="text" placeholder="Заказать обратный звонок">
 					<span class="input-group-btn">
 						<button class="btn btn-default " type="button">
 							<i class="fa fa-chevron-circle-right fa-2x"></i>
 						</button>
 					</span>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<div class="pc-footer-nav-flex container">
-	<p class="pc-copyright">© 2015, Popolni.Club</p>
+	<div class="pc-footer-nav-container">
+		<div class="pc-footer-nav-flex container">
+			<p class="pc-copyright">© 2015, Popolni.Club</p>
+		</div>
+	</div>
+	<div class="pc-background-menu pc-hide"></div>
 </div>
 <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+<script src="js/device.min.js" type="text/javascript"></script>
+<script src="js/bad-browser.js" type="text/javascript"></script>
+<script src="js/perfect-scrollbar.js" type="text/javascript"></script>
 <script src="js/common.js" type="text/javascript"></script>
+<script type="text/javascript">
+	pc.lang = {
+		showAllText: 'Показать весь текст',
+		hideText: 'Свернуть'
+	};
+</script>
 </body>
 </html>

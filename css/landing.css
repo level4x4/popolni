@@ -74,10 +74,7 @@
 	.pc-service-info-container ul li {width: 100%; height: 364px;}
 	.pc-info-icon {width: 212px; height: 212px; box-shadow: 7px 7px 0 #8d97a0;}
 
-	.pc-image-taxi-service {width: 148px; height: 55px;}
-	.pc-image-trademarks {width: 120px; height: 118px;}
-	.pc-image-online-shops {width: 93px; height: 135px;}
-	.pc-image-corporate-solutions {width: 163px; height: 108px;}
+	.pc-info-icon img {width: 163px; height: 163px;}
 
 	.pc-service-info-container ul li.pc-hide-button {display: block; height: 136px;}
 	.pc-our-service-successfully-used-container .pc-btn {margin-bottom: 67px;}
@@ -87,19 +84,16 @@
 	.pc-payment-packages ul li p {font-size: 20px;}
 	.pc-package-icon {height: 298px; line-height: 256px;}
 
-	.pc-package-base {width: 217px; height: 154px;}
-	.pc-package-optimal {width: 285px; height: 169px;}
-	.pc-package-premium {width: 247px; height: 298px;}
+	.pc-package-icon img {width: 298px; height: 298px;}
 
 	.pc-additional-services ul li {text-align: center;}
 
 	.pc-additional-services-container .pc-row.row {width: 100%;}
 
 	.pc-additional-services ul li {width: 320px; font-size: 20px; margin-bottom: 40px;}
-	.pc-services-icon {text-align: center; height: 232px;}
-	.pc-additional-services-web-interface {width: 281px; height: 207px;}
-	.pc-additional-services-alfa-name {width: 233px; height: 232px;}
-	.pc-additional-services-api {width: 279px; height: 221px;}
+	.pc-services-icon {text-align: center; height: 281px;}
+	.pc-services-icon img {width: 281px; height: 281px;}
+
 	.pc-show-all-recall-top {display: none;}
 	.pc-show-all-recall-bottom {display: block; font-size: 20px; margin-bottom: 10px;}
 

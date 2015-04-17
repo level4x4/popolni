@@ -1,4 +1,6 @@
 @media (max-width: 995px) {
+	.pc-content-container {margin-top: 82px;}
+
 	.pc_overflow_hidden {overflow: hidden;}
 
 	.pc-background-menu.pc-hide {z-index: -1;}

@@ -1,11 +1,30 @@
 @media (max-width: 995px) {
-	.pc-logo {order: 1; margin-right: auto;}
-	.pc-user-container {order: 2; margin-left: auto; margin-right: auto;}
-	.pc-header-nav {order: 3; margin-left: auto; margin-right: 0;}
+	.pc_overflow_hidden {overflow: hidden;}
 
-	.pc-header-nav ul {display: none;}
+	.pc-background-menu.pc-hide {z-index: -1;}
+	.pc-background-menu {background-color: rgba(0, 0, 0, 0.65); position: fixed; top: 0; left: 0; width: 100%; height: 100%; opacity: 1; z-index: 997;}
+
+	.pc-logo {order: 1; -webkit-order: 1; margin-right: auto;}
+	.pc-user-container {order: 2; -webkit-order: 2; margin-left: auto; margin-right: auto;}
+	.pc-header-nav {order: 3; -webkit-order: 3; margin-left: auto; margin-right: 0;}
+
 	.pc-mobile-menu {display: inline-block;}
 	.pc-languages-container {display: none;}
+
+	.pc-nav {position: absolute; top: 0; left: 0; right: 0; z-index: 998;}
+
+	.pc-header-nav .pc-mobile-scroll {max-width: 0; overflow: hidden; transition: max-width 0.7s ease-out; background-color: #dddddd; position: absolute; top: 82px; right: 0; z-index: 999; width: 60%;}
+	.pc-header-nav.pc-show-nav .pc-mobile-scroll {max-width: 1000px; transition: max-width 0.7s ease-in;}
+	.pc-header-nav .pc-mobile-scroll > ul {width: 100%;}
+	.pc-header-nav .pc-mobile-scroll > ul > li {float: none; margin: 0; border-bottom: 1px solid #cccbcb; padding: 0 30px 0 17px;}
+	.pc-header-nav .pc-mobile-scroll > ul > li a {word-break: keep-all; white-space: nowrap; display: block; margin: 0; padding: 0; font-size: 26px; line-height: 64px; color: #48494a;}
+
+	.pc-header-nav .pc-mobile-scroll > ul > li:hover > ul,
+	.pc-header-nav .pc-mobile-scroll > ul > li > ul {list-style: none; background-color: #dddddd; margin: 0; padding: 0; position: static; border: 0; overflow: auto; transition: none; max-height: none;}
+	.pc-header-nav .pc-mobile-scroll > ul > li > ul > li a {line-height: 36px; font-size: 18px; color: #03afd8;}
+
+	/*.android .pc-mobile-scroll,*/
+	/*.ios .pc-mobile-scroll {overflow-y: scroll; -webkit-overflow-scrolling: touch;}*/
 
 	.pc-slide-container .pc-font-size-16 {font-size: 16px;}
 	.pc-font-size-16 {font-size: 20px;}
@@ -14,16 +33,16 @@
 	.pc-copyright {margin: 0 auto 0 0; height: 35px; line-height: 35px;}
 	.pc-footer-nav {display: none;}
 
-	.pc-footer-flex {flex-wrap: wrap;}
+	.pc-footer-flex {flex-wrap: wrap; -webkit-flex-wrap: wrap;}
 
 	.pc-footer {height: 223px;}
 	.pc-logo-footer {margin-left: auto; margin-right: auto; text-align: center;}
 
-	.pc-slide-container {background-image: url(../images/pc-slide-bg-995.jpg);}
+	.pc-slide-container {background-image: url(../images/pc-slide-bg-995.jpg); margin-top: 82px;}
 
 	.pc-title {text-align: center;}
 
-	.pc-slide-flex-container {align-items: center;}
+	.pc-slide-flex-container {align-items: center; -webkit-align-items: center;}
 	.pc-slide-flex-container .pc-title {margin-left: auto; margin-right: auto; width: 100%;}
 	.pc-slide-flex-container .pc-text-slide {margin-left: auto; margin-right: auto; float: none; width: 60%;}
 	.pc-slide-flex-container .pc-row,
@@ -34,10 +53,10 @@
 }
 
 @media (max-width: 768px) {
-	.pc-footer-flex {align-content: space-around; align-items: baseline;}
+	.pc-footer-flex {align-content: space-around; align-items: baseline; -webkit-align-content: space-around; -webkit-align-items: baseline;}
 
 	.pc-footer {height: 321px;}
-	.pc-footer-row {flex-wrap: wrap; align-content: space-around; align-items: baseline;}
+	.pc-footer-row {flex-wrap: wrap; align-content: space-around; align-items: baseline; -webkit-flex-wrap: wrap; -webkit-align-content: space-around; -webkit-align-items: baseline;}
 	.pc-contact-footer-info.pc-social-footer {margin-left: auto;}
 	.pc-callback-container {margin-right: auto;}
 
@@ -87,10 +106,20 @@
 	.pc-testimonials-container .pc-row {display: none;}
 
 	.pc-partner-logo {width: 100%;}
+	.pc-slide-flex-container {display: flex; flex-flow: row wrap; justify-content: space-around; display: -webkit-flex; -webkit-flex-flow: row wrap; -webkit-justify-content: space-around;}
+
+	.pc-photo-recall {float: none;}
+	.pc-photo-recall {border-width: 27px; width: 202px; height: 202px; float: none; margin: 30px auto 10px auto;}
+	.pc-photo-recall img {width: 152px; height: 152px;}
+	.pc-text-recall {float: none; width: 100%;}
 }
 
 @media (max-width: 480px) {
+	.container {width: 100%;}
+	.pc-user-nav {display: block;}
+	.pc-user-container {display: none}
 	.pc-row-package .btn,
-	.pc-row .btn {font-size: 35px; height: 50px; line-height: 44px;}
+	.pc-row .btn {font-size: 30px; height: 50px; line-height: 44px;}
 	.pc-title {font-size: 40px;}
+
 }

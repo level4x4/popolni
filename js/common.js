@@ -75,7 +75,7 @@
 		$html = $('html');
 		$body = $('body');
 
-		badBrowser([{browser: 'safari', version: '5'}]);
+		badBrowser([{browser: 'safari', version: '5'},{browser: 'ie', version: '9'}]);
 
 		$pcWrapper = $(selectors.pcWrapper);
 		$pcMobileMenu = $(selectors.pcMobileMenu);

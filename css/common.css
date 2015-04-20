@@ -131,9 +131,9 @@ textarea {resize: none;}
 .pc-form-login {margin-top: 23px;}
 
 .pc-callback-container {margin-top: 31px; width: 272px;}
-.pc-callback-container .pc-form-group.input-group .form-control {border: 5px #c7ccd0; border-right-width: 0;}
+.pc-callback-container .pc-form-group.input-group .form-control {border: 5px solid #c7ccd0; border-right-width: 0;}
 .pc-callback-container .pc-form-group > .input-group-btn:last-child > .btn,
-.pc-callback-container .pc-form-group > .input-group-btn:last-child > .btn-group {margin-left: 0; height: 48px; border-radius: 0; border: 5px #c7ccd0; border-left-width: 0;}
+.pc-callback-container .pc-form-group > .input-group-btn:last-child > .btn-group {margin-left: 0; height: 48px; border-radius: 0; border: 5px solid #c7ccd0; border-left-width: 0;}
 .pc-callback-container .pc-form-group > .input-group-btn:last-child > .btn .fa {margin: -1px -4px 0 0; color: #9da6ae;}
 .pc-callback-container .pc-form-group.input-group .btn-default:hover,
 .pc-callback-container .pc-form-group.input-group .btn-default:focus,
@@ -174,8 +174,10 @@ textarea {resize: none;}
 .pc-footer-nav a:hover,
 .pc-footer-nav li.active a {text-decoration: underline;}
 .pc-footer-nav > ul > li {float: left; padding: 12px 0 6px 0;}
-.pc-footer-nav > ul > li > a {font-size: 16px; margin: 0 20px;}
-.pc-footer-nav > ul > li > ul > li {margin: 0 20px; line-height: 24px;}
+.pc-footer-nav > ul > li > a {font-size: 16px; margin: 0 25px;}
+.pc-footer-nav > ul > li > a:first-child {margin-left: 30px;}
+.pc-footer-nav > ul > li > ul > li {margin: 0 25px; line-height: 24px;}
+.pc-footer-nav > ul > li:first-child > ul > li {margin-left: 30px;}
 
 .pc-footer-nav__line {width: 100%; height: 0; border-bottom: 1px solid #9da6ae; margin-top: 6px; margin-bottom: 7px;}
 

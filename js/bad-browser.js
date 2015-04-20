@@ -5,21 +5,23 @@
 	window.badBrowser = function(parametrs) {
 		var ua = navigator.userAgent, tem,
 			M = ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [],
-			bb = {};
+			bb = {}, isDetect = false;
 		if (/trident/i.test(M[1])) {
 			tem = /\brv[ :]+(\d+)/g.exec(ua) || [];
-			return {
+			bb = {
 				browser: 'ie',
 				version: tem[1] || ''
 			};
+			isDetect = true;
 		}
 		if (M[1] === 'Chrome') {
 			tem = ua.match(/\bOPR\/(\d+)/);
 			if (tem != null) {
-				return {
+				bb = {
 					browser: 'opera',
 					version: tem[1]
 				};
+				isDetect = true;
 			}
 		}
 		M = M[2] ? [M[1], M[2]] : [navigator.appName, navigator.appVersion, '-?'];
@@ -28,12 +30,15 @@
 			bb = {
 				browser: M[0].toLowerCase(),
 				version: M[1]
-			}
+			};
+			isDetect = true;
 		}
-		bb = {
-			browser: M[0].toLowerCase(),
-			version: M[1]
-		};
+		if (!isDetect) {
+			bb = {
+				browser: M[0].toLowerCase(),
+				version: M[1]
+			};
+		}
 		for (var i in parametrs) {
 			if (parametrs[i].browser === bb.browser && bb.version <= parametrs[i].version) {
 				document.getElementsByTagName('html')[0].className += ' bad-browser';

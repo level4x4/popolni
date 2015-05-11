@@ -1,0 +1,41 @@
+.pc-admin-container {background-color: #ffffff;}
+.pc-admin-container .pc-content-container {display: flex; flex-flow: row wrap;}
+.pc-admin-menu-container {background-color: #f1f5f7; width: 230px; align-items: stretch; margin-right: 20px; transition: width 0.5s ease; overflow: hidden;}
+.pc-admin-menu-container .pc-admin-text-menu {opacity: 1; width: 230px; transition: all 0.5s ease;}
+
+.pc-short-admin-menu .pc-admin-menu-container {width: 34px;}
+.pc-short-admin-menu .pc-admin-menu-container .pc-admin-text-menu {opacity: 0; width: 0;}
+
+.pc-admin-menu {padding: 0; margin: 32px 0 0 0; list-style: none;}
+.pc-admin-menu li a {height: 35px; line-height: 35px; background-color: #e6e9ea; border-bottom: 1px solid #ffffff; padding-left: 12px; display: block; color: #48494a; text-decoration: none;}
+.pc-admin-menu li.active a {background-color: #e54404; color: #ffffff;}
+.pc-admin-menu li:hover a {background-color: #d5d7d8; color: #e54404; text-decoration: underline;}
+
+.pc-admin-content {width: calc(100% - 250px); transition: width 0.5s ease;}
+.pc-short-admin-menu .pc-admin-content {width: calc(100% - 54px);}
+
+.pc-admin-content .pc-form-group > .input-group-btn:last-child > .btn .fa {color: #555555;}
+
+.pc-delete-row {color: #e54404; cursor: pointer;}
+
+.pc-admin-menu li a.pc-toggle-left-admin-menu {width: 100%; text-align: right; padding-right: 15px; text-decoration: none; color: #e54404; position: relative; cursor: pointer;}
+.pc-toggle-left-admin-menu .fa-angle-double-left {position: absolute; top: 2px; right: 13px;}
+.pc-toggle-left-admin-menu .fa-caret-left {position: absolute; right: 7px; top: 3px;}
+
+#pc-queue-payments-table_info {text-align: left;}
+.pc-export-in-csv {padding-bottom: 8px; text-align: right;}
+
+#pc-queue-payments-table_wrapper .dataTables_scrollFootInner,
+#pc-queue-payments-table_wrapper .dataTables_scrollHeadInner,
+#pc-queue-payments-table_wrapper .table {width: 100% !important;}
+#pc-queue-payments-table {font-size: 12px;}
+
+.pc-nav-tabs {margin-bottom: 15px;}
+.pc-nav-tabs a {text-decoration: none;}
+
+.pc-alert {color: #48494a; font-size: 12px;}
+.pc-alert .pc-line {background-color: #ffffff;}
+.pc-alert .text-danger,
+.pc-alert .text-danger a {color: #e54404;}
+
+.pc-tab-pane {margin-bottom: 15px;}

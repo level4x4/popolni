@@ -113,7 +113,7 @@ textarea {resize: none;}
 .pc-show-all-recall-bottom {display: none;}
 
 .pc-clients-and-partners-container {background-color: #ffffff;}
-.pc-clients-and-partners-flex { display: flex; flex-flow: row wrap; justify-content: space-around; align-items: baseline; display: -webkit-flex; -webkit-flex-flow: row wrap; -webkit-justify-content: space-around; -webkit-align-items: baseline;}
+.pc-clients-and-partners-flex {display: flex; flex-flow: row wrap; justify-content: space-around; align-items: baseline; display: -webkit-flex; -webkit-flex-flow: row wrap; -webkit-justify-content: space-around; -webkit-align-items: baseline;}
 .pc-partner-logo {height: 120px;}
 
 .pc-about-service-container {background-color: #ffffff;}
@@ -130,16 +130,23 @@ textarea {resize: none;}
 .row .pc-form-login {margin-top: 10px;}
 .pc-form-login {margin-top: 23px;}
 
+.pc-admin-content .pc-form-group .form-control {border: 5px solid #c7ccd0;}
+
 .pc-callback-container {margin-top: 31px; width: 272px;}
-.pc-callback-container .pc-form-group.input-group .form-control {border: 5px solid #c7ccd0; border-right-width: 0;}
-.pc-callback-container .pc-form-group > .input-group-btn:last-child > .btn,
-.pc-callback-container .pc-form-group > .input-group-btn:last-child > .btn-group {margin-left: 0; height: 48px; border-radius: 0; border: 5px solid #c7ccd0; border-left-width: 0;}
+.pc-form-group.input-group .form-control {border: 5px solid #c7ccd0; border-right-width: 0;}
+.pc-form-group > .input-group-btn:last-child > .btn,
+.pc-form-group > .input-group-btn:last-child > .btn-group {margin-left: 0; height: 48px; border-radius: 0; border: 5px solid #c7ccd0; border-left-width: 0;}
+.pc-form-group.input-group .form-control {box-shadow: none;}
+
+.pc-form-group .input-group-addon {background-color: #ffffff; border-radius: 0; border-width: 5px; cursor: pointer;}
+
+.pc-form-group.input-group .btn-default:hover,
+.pc-form-group.input-group .btn-default:focus,
+.pc-form-group.input-group .btn-default.focus,
+.pc-form-group.input-group .btn-default:active,
+.pc-form-group.input-group .btn-default.active {background-color: #ffffff; border-left: 0;}
+
 .pc-callback-container .pc-form-group > .input-group-btn:last-child > .btn .fa {margin: -1px -4px 0 0; color: #9da6ae;}
-.pc-callback-container .pc-form-group.input-group .btn-default:hover,
-.pc-callback-container .pc-form-group.input-group .btn-default:focus,
-.pc-callback-container .pc-form-group.input-group .btn-default.focus,
-.pc-callback-container .pc-form-group.input-group .btn-default:active,
-.pc-callback-container .pc-form-group.input-group .btn-default.active {background-color: #ffffff; border-left: 0;}
 .pc-callback-container .pc-form-group.input-group .btn-default:hover .fa,
 .pc-callback-container .pc-form-group.input-group .btn-default:focus .fa,
 .pc-callback-container .pc-form-group.input-group .btn-default.focus .fa,
@@ -182,3 +189,13 @@ textarea {resize: none;}
 .pc-footer-nav__line {width: 100%; height: 0; border-bottom: 1px solid #9da6ae; margin-top: 6px; margin-bottom: 7px;}
 
 .pc-footer-nav-container {background-color: #8d97a0;}
+
+select {-webkit-appearance: none; -moz-appearance: none; appearance:  none;}
+
+.pc-form-group-select {position: relative;}
+.pc-form-group-select .fa {position: absolute; top: 0; right: 15px; bottom: 0; line-height: 48px; cursor: default; z-index: 0;}
+
+.pc-line {background-color: #8d97a0; height: 1px; width: 100%; margin-bottom: 15px;}
+
+.pc-throbber-container {position: fixed; height: 100%; width: 100%; top: 0; left: 0; background-color: rgba(255, 255, 255, 0.5); z-index: 9999;}
+.pc-throbber {margin: auto; width: 60px; height: 60px; position: absolute; top: 0; left: 0; right: 0; bottom: 0; color: #03afd8;}

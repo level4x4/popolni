@@ -74,7 +74,7 @@
     "@btn-success-border": "darken(@btn-success-bg, 5%)",
     "@btn-info-color": "#fff",
     "@btn-info-bg": "@brand-info",
-    "@btn-info-border": "darken(@btn-info-bg, 5%)",
+    "@btn-info-border": "#03afd8",
     "@btn-warning-color": "#fff",
     "@btn-warning-bg": "@brand-warning",
     "@btn-warning-border": "darken(@btn-warning-bg, 5%)",
@@ -222,7 +222,7 @@
     "@state-warning-text": "#8a6d3b",
     "@state-warning-bg": "#fcf8e3",
     "@state-warning-border": "darken(spin(@state-warning-bg, -10), 5%)",
-    "@state-danger-text": "#a94442",
+    "@state-danger-text": "#e54404",
     "@state-danger-bg": "#f2dede",
     "@state-danger-border": "darken(spin(@state-danger-bg, -10), 5%)",
     "@tooltip-max-width": "200px",
@@ -426,5 +426,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=8fd948d0a7e2ab1968d5"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=2ecc3795279621d67e2c"
 }

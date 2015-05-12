@@ -1,24 +1,30 @@
 .pc-admin-container {background-color: #ffffff;}
 .pc-admin-container .pc-content-container {display: flex; flex-flow: row wrap;}
-.pc-admin-menu-container {background-color: #f1f5f7; width: 230px; align-items: stretch; margin-right: 20px; transition: width 0.5s ease; overflow: hidden;}
-.pc-admin-menu-container .pc-admin-text-menu {opacity: 1; width: 230px; transition: all 0.5s ease;}
+.pc-admin-menu-container {background-color: #f1f5f7; width: 220px; align-items: stretch; margin-right: 20px; transition: width 0.5s ease; overflow: hidden;}
+.pc-admin-menu-container .pc-admin-text-menu {position: relative;}
 
 .pc-short-admin-menu .pc-admin-menu-container {width: 34px;}
-.pc-short-admin-menu .pc-admin-menu-container .pc-admin-text-menu {opacity: 0; width: 0;}
+/*.pc-short-admin-menu .pc-admin-menu-container .pc-admin-text-menu {opacity: 0; width: 0;}*/
 
 .pc-admin-menu {padding: 0; margin: 32px 0 0 0; list-style: none;}
 .pc-admin-menu li a {height: 35px; line-height: 35px; background-color: #e6e9ea; border-bottom: 1px solid #ffffff; padding-left: 12px; display: block; color: #48494a; text-decoration: none;}
 .pc-admin-menu li.active a {background-color: #e54404; color: #ffffff;}
 .pc-admin-menu li:hover a {background-color: #d5d7d8; color: #e54404; text-decoration: underline;}
 
-.pc-admin-content {width: calc(100% - 260px); transition: width 0.5s ease;}
+.pc-admin-menu-container a.pc-admin-text-menu span {opacity: 1; width: 208px; display: block;  transition: all 0.5s ease; position: absolute; top: 0; left: 12px;}
+.pc-admin-menu-container a.pc-admin-text-menu i {opacity: 0; width: 0; display: block;  transition: all 0.5s ease; position: absolute; top: 10px; left: 10px;}
+.pc-short-admin-menu .pc-admin-menu-container a.pc-admin-text-menu span {opacity: 0; width: 0; z-index: 0;}
+.pc-short-admin-menu .pc-admin-menu-container a.pc-admin-text-menu i {opacity: 1; width: 34px; z-index: 1;}
+
+.pc-admin-content {width: calc(100% - 250px); transition: width 0.5s ease;}
 .pc-short-admin-menu .pc-admin-content {width: calc(100% - 64px);}
 
 .pc-admin-content .pc-form-group > .input-group-btn:last-child > .btn .fa {color: #555555;}
 
 .pc-delete-row {color: #e54404; cursor: pointer;}
 
-.pc-admin-menu li a.pc-toggle-left-admin-menu {width: 100%; text-align: right; padding-right: 15px; text-decoration: none; color: #e54404; position: relative; cursor: pointer;}
+.pc-admin-menu li a.pc-toggle-left-admin-menu {width: 100%; text-align: right; padding-right: 15px; text-decoration: none; color: #e54404; position: relative; cursor: pointer; transition: transform 0.5s ease;}
+.pc-short-admin-menu .pc-admin-menu li a.pc-toggle-left-admin-menu {transform: rotateY(180deg);}
 .pc-toggle-left-admin-menu .fa-angle-double-left {position: absolute; top: 2px; right: 13px;}
 .pc-toggle-left-admin-menu .fa-caret-left {position: absolute; right: 7px; top: 3px;}
 

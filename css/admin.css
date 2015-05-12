@@ -11,8 +11,8 @@
 .pc-admin-menu li.active a {background-color: #e54404; color: #ffffff;}
 .pc-admin-menu li:hover a {background-color: #d5d7d8; color: #e54404; text-decoration: underline;}
 
-.pc-admin-content {width: calc(100% - 250px); transition: width 0.5s ease;}
-.pc-short-admin-menu .pc-admin-content {width: calc(100% - 54px);}
+.pc-admin-content {width: calc(100% - 260px); transition: width 0.5s ease;}
+.pc-short-admin-menu .pc-admin-content {width: calc(100% - 64px);}
 
 .pc-admin-content .pc-form-group > .input-group-btn:last-child > .btn .fa {color: #555555;}
 

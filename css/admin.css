@@ -36,8 +36,11 @@
 #pc-queue-payments-table_wrapper .table {width: 100% !important;}
 #pc-queue-payments-table {font-size: 12px;}
 
-.pc-nav-tabs {margin-bottom: 15px;}
+.pc-nav-tabs {margin-bottom: 15px; border-bottom-color: #8d97a0;}
 .pc-nav-tabs a {text-decoration: none;}
+
+.nav-tabs > li > a, .nav > li > a:hover, .nav > li > a:focus {border: 1px solid #8d97a0; color: #48494a;}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {background-color: #ffffff; border-color: #8d97a0; border-bottom-color: #ffffff; color: #03afd8;}
 
 .pc-alert {color: #48494a; font-size: 12px;}
 .pc-alert .pc-line {background-color: #ffffff;}

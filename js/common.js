@@ -298,11 +298,8 @@
 	var renderQueuePaymentsTable = function() {
 		pcQueuePaymentsTable = $pcQueuePaymentsTable.DataTable({
 			pagingType: 'simple_numbers',
-			order: [[1, "desc"]],
-			aoColumnDefs: [
-				{bSortable: false, aTargets: 'd-sort'},
-				{bSearchable: false, aTargets: 'd-search'}
-			],
+			ordering: false,
+			info: false,
 			pageLength: 20,
 			dom: "<'row'<'col-sm-6'i><'" + classNames.pcExportInCsv + " col-sm-6'>>" +
 			"<'row'<'col-sm-12'p>>" +

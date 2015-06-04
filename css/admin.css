@@ -48,3 +48,12 @@
 .pc-alert .text-danger a {color: #e54404;}
 
 .pc-tab-pane {margin-bottom: 15px;}
+
+
+@media (max-width: 995px) {
+	.pc-sum-payment-group .col-lg-4 {width: 50%; float: left;}
+}
+
+@media (max-width: 480px) {
+	.pc-nav-tabs a {font-size: 11px;}
+}
